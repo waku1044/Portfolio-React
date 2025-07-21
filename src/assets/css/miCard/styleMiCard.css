@@ -1,18 +1,18 @@
 @keyframes shadowSweep {
     0% {
-      box-shadow: -4px -4px 5px #12F7D6;
+      box-shadow: -4px -4px 5px #00f800;
     }
     25% {
-      box-shadow: 4px -4px 5px #12F7D6;
+      box-shadow: 4px -4px 5px #00f800;
     }
     50% {
-      box-shadow: 4px 4px 5px #12F7D6;
+      box-shadow: 4px 4px 5px #00f800;
     }
     75% {
-      box-shadow: -4px 4px 5px #12F7D6;
+      box-shadow: -4px 4px 5px #00f800;
     }
     100% {
-      box-shadow: -4px -4px 5px #12F7D6;
+      box-shadow: -4px -4px 5px #00f800;
     }
   }
   
@@ -25,7 +25,7 @@
     width: 320px;
     min-height: 520px;  
     color: white;
-    border: 3px solid white;
+    border: 3px solid rgb(131, 0, 253);
     border-radius: 35% 0 35% 0;
     margin: 10px auto;
     animation: shadowSweep 5s infinite linear;
