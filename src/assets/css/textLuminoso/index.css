@@ -1,0 +1,45 @@
+ .letraAnimada {
+  font-family: monospace;
+  /* font-size: 1.5rem; */
+  margin-inline: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 5px solid #fff;
+  animation: typing 9s steps(22) infinite, blink 1s  infinite ;
+} 
+
+ @keyframes typing {
+  0%{
+    width: 0;
+  }
+  33%{
+    width: 100%;
+  }
+  66%{
+    width: 100%;
+  }
+  100%{
+    width: 0;
+  }
+} 
+
+
+/* .cursor {
+  display: inline-block;
+  width: 1ch;
+  animation: blink 9s infinite;
+  color: #a855f7; 
+} */
+
+/* @keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  }
+  33%, 66% {
+    opacity: 1;
+  }
+}
+
+.letraAnimada {
+  transition: all 9s ease;
+} */ */
